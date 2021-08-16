@@ -1,16 +1,12 @@
-# Viro Starter Kit
+# React-native-ar-Image-tracking
 
-This is a blank React Native project setup with Viro.
+This is a simple app taking pictures of objects and trying to find and track them on the user environement using AR features of ViroReact
 
 ## Installation
 
-1. `git clone https://github.com/ViroCommunity/starter-kit.git`
-2. `cd starter-kit`
-3. `npm install`
-4. `npx pod-install` (iOS)
-5. `npx react-native run-android` or `npx react-native run-ios`
-
-NOTE: The variant arguments are not needed for debug or release.
+1. `npm install`
+2. `npx pod-install` (iOS)
+3. `npx react-native run-android` or `npx react-native run-ios`
 
 ## How to Install Viro in an existing project?
 
