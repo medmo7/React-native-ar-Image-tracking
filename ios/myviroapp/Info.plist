@@ -37,10 +37,14 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>We need this permission to access your camera if you want to take a picture and add it to a word. </string>
 	<key>NSLocationWhenInUseUsageDescription</key>
 	<string></string>
-	<key>NSCameraUsageDescription</key>
-	<string>The camera is needed for AR functionality</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Vodar want to access your microphone for speech recognition. If you give this permission, you can search for a word with your voice.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Vodar want to access your microphone for speech recognition</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIRequiredDeviceCapabilities</key>
@@ -50,10 +54,9 @@
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
-		<string>UIInterfaceOrientationLandscapeLeft</string>
-		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>LSSupportsOpeningDocumentsInPlace</key> <true/>
 </dict>
 </plist>
